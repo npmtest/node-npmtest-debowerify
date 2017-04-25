@@ -1,4 +1,7 @@
-# test coverage for  [debowerify (v1.5.0)](https://github.com/eugeneware/debowerify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-debowerify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-debowerify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-debowerify.svg)](https://travis-ci.org/npmtest/node-npmtest-debowerify)
+# npmtest-debowerify
+
+#### basic test coverage for  [debowerify (v1.5.0)](https://github.com/eugeneware/debowerify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-debowerify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-debowerify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-debowerify.svg)](https://travis-ci.org/npmtest/node-npmtest-debowerify)
+
 #### A browserify transform to enable the easy use of bower components in browserify client javascript projects. This can be used in conjunction with deamdify to require AMD components from bower as well.
 
 [![NPM](https://nodei.co/npm/debowerify.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/debowerify)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-debowerify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-debowerify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-debowerify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-debowerify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-debowerify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-debowerify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-debowerify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-debowerify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-debowerify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-debowerify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-debowerify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-debowerify/build/coverage.html/index.html)
 
@@ -87,7 +90,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "1.5.0"
+    "version": "1.5.0",
+    "bin": {}
 }
 ```
 
